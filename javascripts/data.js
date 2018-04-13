@@ -5,7 +5,7 @@ const printToDom = require('./dom');
 let petsArray = [];
 const parsedPetsData = function () {
   petsArray = JSON.parse(this.responseText).pets;
-  printToDom(petsArray);
+  printToDom.printToDom(petsArray);
   // getPetsArray(petsArray);
   // console.log('Array', petsArray);
 };
@@ -15,8 +15,14 @@ const executeThisCodeIfXHRFails = function () {
 const initializer = () => {
   xhrPets(parsedPetsData, executeThisCodeIfXHRFails);
 };
+
+const getPetsArray = () => {
+  console.log(petsArray);
+  return petsArray;
+};
+
 // console.log(getPetsArray);
 module.exports = {
   initializer,
-  // getPetsArray,
+  getPetsArray,
 };
