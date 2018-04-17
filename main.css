@@ -10,3 +10,7 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+
+/* img {
+  max-height: 100%;
+} */

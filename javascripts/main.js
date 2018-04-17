@@ -1,4 +1,5 @@
-const data = require('./data');
-data.initializer();
+const dataGatekeeper = require('./dataGatekeeper');
 
-console.log('jghu');
+dataGatekeeper.initializer();
+
+console.log('main.js');
