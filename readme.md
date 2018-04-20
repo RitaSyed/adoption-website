@@ -1,17 +1,24 @@
 # Adoption Website
 
 ## Description
-1. Displays cards with places to travel to. These cards have a title, image and description. Each card has it's own input box and submit button. The user can type in the text box for a specific location, click the submit button on that card, and their entry should appear in a "diary" below the cards. The diary entry contains the name of the location from the card the user was typing in (and hit the submit button in). It also contains only the text that was in the text box from that card. The text box for that card is cleared upon submission. The diary entries build up as the user continues to type in cards and submit their entries. Newest entries  appear at the bottom.
+1. Page lists all available pets for adoption with buttons to sort the results by the type of animal.
+1. There is a reset button to unfilter the results.
 
 ## Screenshot
 #### Page view on load
-![WebPage](https://raw.githubusercontent.com/RitaSyed/adoption-website/master/screenshots/initialView.PNG)
-![WebPage](https://raw.githubusercontent.com/RitaSyed/adoption-website/master/screenshots/initialView2.PNG)
-#### Page view when button is clicked
-![WebPage](https://raw.githubusercontent.com/RitaSyed/adoption-website/master/screenshots/viewWhenButtonClicked.PNG)
-![WebPage](https://raw.githubusercontent.com/RitaSyed/adoption-website/master/screenshots/viewWhenButtonClicked2.PNG)
-#### Page view when reset button is clicked
-![WebPage](https://raw.githubusercontent.com/RitaSyed/adoption-website/master/screenshots/initialView.PNG)
+![WebPage](https://github.com/RitaSyed/adoption-website/blob/master/screenshots/initialView.PNG?raw=true)
+#### Page view when Cats button is clicked
+![WebPage](https://github.com/RitaSyed/adoption-website/blob/master/screenshots/viewWhenButtonCatsIsClicked.png?raw=true)
+#### Page view when Dogs button is clicked
+![WebPage](https://github.com/RitaSyed/adoption-website/blob/master/screenshots/viewWhenButtonDogsIsClicked.png?raw=true)
+#### Page view when Dinos button is clicked
+![WebPage](https://github.com/RitaSyed/adoption-website/blob/master/screenshots/viewWhenButtonDinosIsClicked.png?raw=true)
+
+## Technologies Used:
+1. HTML5, CSS, JavaScript
+2. http://getbootstrap.com/docs/3.3/
+3. Browserify
+4. Grunt
 
 ## How to Run
 1. Clone repo to local machine.
