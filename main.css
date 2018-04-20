@@ -1,16 +1,36 @@
 body {
-  background-color: red;
+  background-color: #fcd9d9;
 }
-/* 
-.thumbnail {
-  width: 300px;
-} */
+
+.box,
+.btn-category {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 
 .row {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* img {
-  max-height: 100%;
-} */
+/* card */
+
+.card-title {
+  font-size: 2em;
+}
+.thumbnail .caption {
+  min-height: 175px;
+  position: relative;
+}
+.color-title {
+  font-size: 1.5em;
+}
+.skills-info {
+  font-size: 1em;
+}
+.pet-type {
+  position: absolute;
+  bottom: 0;
+  width: 95%;
+  padding: 5px 0;
+}
