@@ -8,11 +8,11 @@
 #### Page view on load
 ![WebPage](https://github.com/RitaSyed/adoption-website/blob/master/screenshots/initialView.PNG?raw=true)
 #### Page view when Cats button is clicked
-![WebPage](https://github.com/RitaSyed/adoption-website/blob/master/screenshots/viewWhenButtonCatsIsClicked.png?raw=true)
+![WebPage](https://raw.githubusercontent.com/RitaSyed/adoption-website/master/screenshots/viewWhenButtonCatsIsClicked.png)
 #### Page view when Dogs button is clicked
-![WebPage](https://github.com/RitaSyed/adoption-website/blob/master/screenshots/viewWhenButtonDogsIsClicked.png?raw=true)
+![WebPage](https://raw.githubusercontent.com/RitaSyed/adoption-website/master/screenshots/viewWhenButtonDogsIsClicked.png)
 #### Page view when Dinos button is clicked
-![WebPage](https://github.com/RitaSyed/adoption-website/blob/master/screenshots/viewWhenButtonDinosIsClicked.png?raw=true)
+![WebPage](https://raw.githubusercontent.com/RitaSyed/adoption-website/master/screenshots/viewWhenButtonDinosIsClicked.png)
 
 ## Technologies Used:
 1. HTML5, CSS, JavaScript
